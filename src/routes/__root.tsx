@@ -149,7 +149,7 @@ function TopNav() {
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '0 var(--space-6)' }}>
         <div style={{ display: 'flex', height: 56, alignItems: 'center', gap: 'var(--space-8)' }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)', textDecoration: 'none' }}>
-            <div style={{ height: 24, width: 24, borderRadius: 'var(--radius-md)', backgroundColor: 'var(--action-primary)' }} />
+            <img src="/favicon.svg" alt="" style={{ height: 24, width: 24, borderRadius: 'var(--radius-md)' }} />
             <span style={{ fontSize: 'var(--size-xs)', fontWeight: 600, letterSpacing: '-0.01em', color: 'var(--text-base)', fontFamily: 'var(--font-base)' }}>Cedar Ops</span>
           </Link>
           <nav style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-1)' }}>
