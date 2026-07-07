@@ -109,32 +109,30 @@ function NavLink({ to, children, exact }: { to: string; children: ReactNode; exa
       activeOptions={{ exact }}
       style={{
         display: 'inline-flex',
-        height: 36,
         alignItems: 'center',
-        padding: '0 var(--space-3)',
-        fontSize: 'var(--size-xs)',
+        padding: 'var(--space-1) var(--space-3)',
+        borderRadius: 'var(--radius-md)',
+        fontSize: 'var(--body-sm)',
         fontWeight: 500,
         fontFamily: 'var(--font-base)',
         color: 'var(--text-subtle)',
+        backgroundColor: 'transparent',
         textDecoration: 'none',
-        borderBottom: '2px solid transparent',
-        marginBottom: -1,
-        transition: 'color 0.15s',
+        transition: 'color 0.15s, background-color 0.15s',
       }}
       activeProps={{
         style: {
           display: 'inline-flex',
-          height: 36,
           alignItems: 'center',
-          padding: '0 var(--space-3)',
-          fontSize: 'var(--size-xs)',
+          padding: 'var(--space-1) var(--space-3)',
+          borderRadius: 'var(--radius-md)',
+          fontSize: 'var(--body-sm)',
           fontWeight: 500,
           fontFamily: 'var(--font-base)',
-          color: 'var(--action-primary)',
+          color: 'var(--text-base)',
+          backgroundColor: 'var(--bg-faint)',
           textDecoration: 'none',
-          borderBottom: '2px solid var(--action-primary)',
-          marginBottom: -1,
-          transition: 'color 0.15s',
+          transition: 'color 0.15s, background-color 0.15s',
         },
       }}
     >
