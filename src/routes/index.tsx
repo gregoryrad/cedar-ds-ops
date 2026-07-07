@@ -74,7 +74,7 @@ function Overview() {
       </div>
 
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-        <Card style={{ padding: 'var(--space-6)' }} cardStyle="default">
+        <Card className="lg:col-span-2" style={{ padding: 'var(--space-6)' }} cardStyle="default">
           <div style={{ marginBottom: 'var(--space-4)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <div>
               <h2 style={{ fontSize: 'var(--body-sm)', fontWeight: 600, color: 'var(--text-base)', fontFamily: 'var(--font-base)', margin: 0 }}>Adoption trend</h2>
