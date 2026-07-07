@@ -4,8 +4,7 @@ export type ComponentCategory =
   | "Data Display"
   | "Feedback"
   | "Navigation"
-  | "Status"
-  | "Overlays";
+  | "Status";
 
 export interface CedarComponent {
   slug: string;
@@ -42,7 +41,7 @@ const raw: Omit<CedarComponent, "slug">[] = [
   { name: "Tabs", category: "Navigation", status: "Stable", adoption: 82, variants: 3, updated: "4 days ago", updatedDays: 4 },
   { name: "Breadcrumb", category: "Navigation", status: "Stable", adoption: 58, variants: 3, updated: "3 weeks ago", updatedDays: 21 },
   { name: "Pagination", category: "Navigation", status: "Stable", adoption: 55, variants: 3, updated: "2 weeks ago", updatedDays: 14 },
-  { name: "Menu", category: "Overlays", status: "Stable", adoption: 60, variants: 7, updated: "1 week ago", updatedDays: 7 },
+  { name: "Menu", category: "Navigation", status: "Stable", adoption: 60, variants: 7, updated: "1 week ago", updatedDays: 7 },
   { name: "Progress Bar", category: "Status", status: "Stable", adoption: 73, variants: 3, updated: "2 weeks ago", updatedDays: 14 },
   { name: "Spinner", category: "Status", status: "Stable", adoption: 70, variants: 3, updated: "3 weeks ago", updatedDays: 21 },
 ];
@@ -55,7 +54,6 @@ export const categories: ComponentCategory[] = [
   "Feedback",
   "Navigation",
   "Status",
-  "Overlays",
 ];
 
 export const adoptionTrend = [
